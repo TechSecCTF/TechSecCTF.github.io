@@ -69,7 +69,8 @@ li#workshops-button {
 
 #sidebar-logo {
     display: block;
-    margin: 8px auto;
+    margin: auto;
+    margin-top: 30px;
 }
 
 #sidebar ul {
@@ -85,11 +86,18 @@ li#workshops-button {
     padding-left: 0px;
 }
 
+#posts {
+    height: 100%;
+    margin-left: 27%;
+    float: left;
+    width: 70%;
+}
+
 div.separator {
     margin-top:2em;
     text-transform: uppercase;
-    color: #307195;
-    border-bottom: 1px solid #307195;
+    color: rgba(90, 90, 90, 0.6);
+    border-bottom: 1px solid rgba(90, 90, 90, 0.6);
     padding: 0.4em 0;
     font-size: 80%;
     font-weight: 500;
