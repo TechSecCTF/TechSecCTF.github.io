@@ -4,6 +4,7 @@ body {
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
+    background-color: white;
 }
 
 #banner {
@@ -86,13 +87,6 @@ li#workshops-button {
     padding-left: 0px;
 }
 
-#posts {
-    height: 100%;
-    margin-left: 27%;
-    float: left;
-    width: 70%;
-}
-
 div.separator {
     margin-top:2em;
     text-transform: uppercase;
@@ -106,6 +100,8 @@ div.separator {
 
 section.post {
     margin-bottom: 4em;
+    padding: 5px;
+    background-color: white;
 }
 
 .post:last-of-type {
