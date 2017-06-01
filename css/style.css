@@ -133,3 +133,7 @@ p span {
 .sidebar-nav li a:active, .sidebar-nav li a:focus {
   text-decoration: none;
 }
+
+section-header{
+    font-size: 50px;
+}
