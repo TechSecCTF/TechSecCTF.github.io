@@ -50,6 +50,7 @@ img#techsec-logo {
     height: 70px;
     display: block;
     margin: 16px auto;
+    background-color: none;
 }
 
 div#team-photo {
