@@ -12,54 +12,45 @@
     <title>TechSec</title>
 </head>
 <body>
-    <aside id="sidebar">
+    <nav id="sidebar">
         <img id="lock-logo" src="lock_logo.png"/>
         <ul>
             <li id="home-button">Home</li>
 
             <a href="about.html">
-                <li id="about-button">
-                    About
-                </li>
+                <li id="about-button">About</li>
             </a>
 
             <a href="https://github.com/TechSecCTF/meeting_notes">
-                <li id="workshops-button">
-                    Github
-                </li>
+                <li class="last-button" id="workshops-button">Github</li>
             </a>
         </ul>
-    </aside>
+    </nav>
 
-    <div id="content">
+    <section id="content">
 
-        <img id="techsec-logo" src="techsec_logo.png"/>
+        <header>
+            <img id="techsec-logo" src="techsec_logo.png"/>
+        </header>
 
         <div id="team-photo"></div>
 
-        <div id="quick-links">
+        <section id="quick-links">
             <a href="https://github.com/TechSecCTF/meeting_notes/tree/master/02-27-17_bkp_recap">
-                <div class="link">
-                    BKP
-                </div>
+                <div class="link column-1">BKP</div>
             </a>
 
             <a href="https://github.com/TechSecCTF/meeting_notes/tree/master/03-06-17_binary_introduction">
-                <div class="link">
-                    Binaries I
-                </div>
+                <div class="link column-2">Binaries I</div>
             </a>
 
             <a href="https://github.com/TechSecCTF/meeting_notes/tree/master/03-13-17_binaries_part2">
-                <div class="link">
-                    Binaries II
-                </div>
+                <div class="link column-3">Binaries II</div>
             </a>
+        </section>
 
-        </div>
-
-        <div id="posts">
-            <div class="post" id="top-post">
+        <section>
+            <article class="post" id="top-post">
                 <h2>New Website!</h2>
                 <p> This is the skeleton for our club webiste, where we
                 can make announcements, link to workshop materials, and
@@ -77,9 +68,9 @@
                 justo eu, consequat justo.  Cras lobortis at urna vitae
                 laoreet. Etiam sed mauris blandit, finibus lectus sed,
                 faucibus arcu. </p>
-            </div>
+            </article>
 
-            <div class="post">
+            <article class="post">
                 <h2>DEF CON</h2>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing
                 elit.  In semper, tortor convallis bibendum tincidunt,
@@ -113,9 +104,9 @@
                 lacus. Etiam vitae nisl eget augue luctus pharetra nec
                 sit amet risus. Cras lacinia libero sit amet metus
                 dignissim consectetur. </p>
-            </div>
+            </article>
 
-            <div class="post">
+            <article class="post">
                 <h2>Binary Ninja</h2>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing
                 elit.  In semper, tortor convallis bibendum tincidunt,
@@ -149,9 +140,9 @@
                 lacus. Etiam vitae nisl eget augue luctus pharetra nec
                 sit amet risus. Cras lacinia libero sit amet metus
                 dignissim consectetur. </p>
-            </div>
+            </article>
 
-        </div>
+        </section>
 
-    </div>
+    </section>
 </body>

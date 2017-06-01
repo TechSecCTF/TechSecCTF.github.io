@@ -6,8 +6,6 @@ a {
 }
 
 html, body {
-    height: 100%;
-    width: 100%;
     font-family: Arial, sans-serif;
     font-size: 18px;
     background-color: #eeeeee;
@@ -15,12 +13,11 @@ html, body {
 
 #sidebar {
     position: fixed;
-    height: 100%;
     width: 200px;
     z-index: 1;
 }
 
-img#lock-logo {
+#lock-logo {
     display: block;
     margin: 16px auto;
     width: 100px;
@@ -33,52 +30,55 @@ img#lock-logo {
     margin-bottom: 5px;
 }
 
-li#home-button {
+#sidebar li.last-button {
+    margin-bottom: 0px;
+}
+ 
+#home-button {
     background-color: #D46A6A;
 }
 
-li#about-button {
+#about-button {
     background-color: #764B8E;
 }
 
-li#workshops-button {
+#workshops-button {
     background-color: #4F628E;
 }
 
 #content {
     position: relative;
-    width: 75%;
     margin-left: 220px;
+    margin-right: 40px;
 }
 
-img#techsec-logo {
+#techsec-logo {
     height: 70px;
     display: block;
-    margin: 16px auto;
+    margin-top: 16px;
+    margin-left: 350px;
+    margin-bottom: 16px;
     background-color: none;
 }
 
-div#team-photo {
+#team-photo {
     height: 400px;
-    width: 100%;
     background-image: url(techsec_team.png);
     background-repeat: no-repeat;
-    background-position: -300px -180px;
-    background-size: 135% auto;
+    background-position: -310px -180px;
+    background-size: 130% auto;
     margin-bottom: 16px;
 }
 
 #quick-links {
     height: 80px;
-    width: 100%;
     margin-bottom: 16px;
 }
 
 .link {
-    display: inline-block;
-    width: 32.863%; /* ??? */
-    height: 100%;
-    border: 1px solid purple;
+    float: left;
+    position: relative;
+    width: 32.66%;
 
     text-align: center;
     vertical-align: middle;
@@ -88,12 +88,16 @@ div#team-photo {
     background-color: #483D4C;
 }
 
-#posts {
-    width: 100%;
+.column-1 { margin-right: 0.5%; }
+
+.column-2 {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
 }
 
+.column-3 { margin-left: 0.5%; }
+
 .post {
-    width: 100%;
     margin-bottom: 30px;
     background-color: #ffffff;
     color: black;
