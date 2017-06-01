@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8"/>
-    <meta name="description" content="Official Site of TechSec"/>
+    <meta name="description" content="TechSec | Home"/>
     <link href="style.css" type="text/css" rel="stylesheet"/>
+    <style>
+        li#home-button {
+            text-decoration: underline;
+        }
+    </style>
 
     <title>TechSec</title>
 </head>
@@ -11,8 +16,18 @@
         <img id="lock-logo" src="lock_logo.png"/>
         <ul>
             <li id="home-button">Home</li>
-            <li id="about-button">About</li>
-            <li id="workshops-button">Workshops</li>
+
+            <a href="about.html">
+                <li id="about-button">
+                    About
+                </li>
+            </a>
+
+            <a href="https://github.com/TechSecCTF/meeting_notes">
+                <li id="workshops-button">
+                    Github
+                </li>
+            </a>
         </ul>
     </aside>
 
@@ -23,9 +38,24 @@
         <div id="team-photo"></div>
 
         <div id="quick-links">
-            <div class="link">Binary Ninja</div>
-            <div class="link">Stack Smashing</div>
-            <div class="link">Web Security</div>
+            <a href="https://github.com/TechSecCTF/meeting_notes/tree/master/02-27-17_bkp_recap">
+                <div class="link">
+                    BKP
+                </div>
+            </a>
+
+            <a href="https://github.com/TechSecCTF/meeting_notes/tree/master/03-06-17_binary_introduction">
+                <div class="link">
+                    Binaries I
+                </div>
+            </a>
+
+            <a href="https://github.com/TechSecCTF/meeting_notes/tree/master/03-13-17_binaries_part2">
+                <div class="link">
+                    Binaries II
+                </div>
+            </a>
+
         </div>
 
         <div id="posts">
