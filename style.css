@@ -55,18 +55,14 @@ html, body {
 #techsec-logo {
     height: 70px;
     display: block;
-    margin-top: 16px;
-    margin-left: 350px;
-    margin-bottom: 16px;
-    background-color: none;
+    margin: 16px auto;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 #team-photo {
-    height: 400px;
-    background-image: url(techsec_team.png);
-    background-repeat: no-repeat;
-    background-position: -310px -180px;
-    background-size: 130% auto;
+    width: 100%;
+    height: auto;
     margin-bottom: 16px;
 }
 
