@@ -2,7 +2,6 @@
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 html, body {
@@ -33,7 +32,7 @@ html, body {
 #sidebar li.last-button {
     margin-bottom: 0px;
 }
- 
+
 #home-button {
     background-color: #D46A6A;
 }
