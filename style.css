@@ -33,17 +33,14 @@ html, body {
     margin-bottom: 0px;
 }
 
-#home-button {
-    background-color: #D46A6A;
-}
+#home-button { background-color: #D46A6A; }
+#home-button:hover { background-color: #AA3939; }
 
-#about-button {
-    background-color: #764B8E;
-}
+#about-button { background-color: #764B8E; }
+#about-button:hover { background-color: #582A72; }
 
-#workshops-button {
-    background-color: #4F628E;
-}
+#workshops-button { background-color: #4F628E; }
+#workshops-button:hover { background-color: #2E4172; }
 
 #content {
     position: relative;
@@ -81,6 +78,10 @@ html, body {
     color: white;
     font-size: 1.25em;
     background-color: #483D4C;
+}
+
+.link:hover {
+    background-color: #2B2B2B;
 }
 
 .column-1 { margin-right: 0.5%; }
