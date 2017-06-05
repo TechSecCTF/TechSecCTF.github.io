@@ -22,14 +22,14 @@ html, body {
     width: 100px;
 }
 
-#sidebar li {
+#sidebar div {
     text-align: center;
     line-height: 60px;
     color: white;
     margin-bottom: 5px;
 }
 
-#sidebar li.last-button {
+#sidebar div.last-button {
     margin-bottom: 0px;
 }
 
@@ -103,6 +103,5 @@ html, body {
 
 .post h2 {
     font-size: 24px;
-    text-decoration: bold;
     margin-bottom: 10px;
 }
