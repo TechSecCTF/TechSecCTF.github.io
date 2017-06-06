@@ -3,28 +3,44 @@
     <meta charset="utf-8"/>
     <meta name="description" content="TechSec | Home"/>
     <link href="style.css" type="text/css" rel="stylesheet"/>
-    <style>
-        li#home-button {
-            text-decoration: underline;
+    <style> #home-button { text-decoration: underline; } </style>
+    <script type="text/javascript">
+        function setWidth(id, width) {
+            tag = document.getElementById(id);
+            tag.style.width = width;
+            return 0;
         }
-    </style>
-
+    </script>
     <title>TechSec</title>
 </head>
 <body>
     <nav id="sidebar">
-        <img id="lock-logo" src="lock_logo.png" alt="techsec lock logo"/>
+        <div>
+            <img id="lock-logo" src="lock_logo.png" alt="techsec lock logo"/>
+        </div>
 
         <a href="index.html">
-            <div id="home-button" style="text-decoration: underline">Home</div>
+            <div id="home-button"
+                 onmouseover="setWidth('home-button','100%');"
+                 onmouseout="setWidth('home-button','95%');">
+                Home
+            </div>
         </a>
 
         <a href="about.html">
-            <div id="about-button">About</div>
+            <div id="about-button"
+                 onmouseover="setWidth('about-button','100%');"
+                 onmouseout="setWidth('about-button','95%');">
+                About
+            </div>
         </a>
 
         <a href="https://github.com/TechSecCTF/">
-            <div class="last-button" id="workshops-button">Github</div>
+            <div id="github-button"
+                 onmouseover="setWidth('github-button','100%');"
+                 onmouseout="setWidth('github-button','95%');">
+                Github
+            </div>
         </a>
     </nav>
 

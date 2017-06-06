@@ -27,10 +27,7 @@ html, body {
     line-height: 60px;
     color: white;
     margin-bottom: 5px;
-}
-
-#sidebar div.last-button {
-    margin-bottom: 0px;
+    width: 95%;
 }
 
 #home-button { background-color: #D46A6A; }
@@ -39,8 +36,8 @@ html, body {
 #about-button { background-color: #764B8E; }
 #about-button:hover { background-color: #582A72; }
 
-#workshops-button { background-color: #4F628E; }
-#workshops-button:hover { background-color: #2E4172; }
+#github-button { background-color: #4F628E; }
+#github-button:hover { background-color: #2E4172; }
 
 #content {
     position: relative;
