@@ -119,11 +119,6 @@ html, body {
         margin: 0;
     }
 
-    #techsec-logo {
-        width: 95%;
-        height: auto;
-    }
-
     #quick-links {
         position: static;
         height: auto;
