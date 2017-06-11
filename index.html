@@ -2,12 +2,18 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="description" content="TechSec | Home"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" type="text/css" rel="stylesheet"/>
     <style> #home-button { text-decoration: underline; } </style>
     <script type="text/javascript">
         function setWidth(id, width) {
-            tag = document.getElementById(id);
-            tag.style.width = width;
+            var smallscreen = window.matchMedia("(max-width: 768px)");
+
+            if (!smallscreen) {
+                tag = document.getElementById(id);
+                tag.style.width = width;
+            }
+
             return 0;
         }
     </script>
