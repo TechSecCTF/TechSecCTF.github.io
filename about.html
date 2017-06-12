@@ -8,14 +8,14 @@
     <style> #about-button { text-decoration: underline; } </style>
     <script type="text/javascript" src="script.js"></script>
 </head>
-<body>
+<body onresize="adjustbuttons();">
     <nav id="sidebar">
         <div>
             <img id="lock-logo" src="lock_logo.png" alt="techsec lock logo"/>
         </div>
 
         <a href="index.html">
-            <div id="home-button"
+            <div id="home-button" class="nav-button"
                  onmouseover="setWidth('home-button','100%');"
                  onmouseout="setWidth('home-button','95%');">
                 Home
@@ -23,7 +23,7 @@
         </a>
 
         <a href="about.html">
-            <div id="about-button"
+            <div id="about-button" class="nav-button"
                  onmouseover="setWidth('about-button','100%');"
                  onmouseout="setWidth('about-button','95%');">
                 About
@@ -31,7 +31,7 @@
         </a>
 
         <a href="https://github.com/TechSecCTF/">
-            <div id="github-button"
+            <div id="github-button" class="nav-button"
                  onmouseover="setWidth('github-button','100%');"
                  onmouseout="setWidth('github-button','95%');">
                 Github
