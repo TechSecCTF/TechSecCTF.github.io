@@ -1,5 +1,5 @@
 function setWidth(id, width) {
-    var smallscreen = window.matchMedia("(max-width: 768)");
+    var smallscreen = window.matchMedia("(max-width: 768px)");
 
     if (!smallscreen.matches) {
         tag = document.getElementById(id);
