@@ -37,7 +37,10 @@ html, body {
 #about-button:hover { background-color: #582A72; }
 
 #github-button { background-color: #4F628E; }
-#github-button:hover { background-color: #2E4172; }
+#github-button:hover { background-color: #2E4272; }
+
+#recruit-button { background-color: #468C77; }
+#recruit-button:hover { background-color: #257059; }
 
 #content {
     position: relative;
