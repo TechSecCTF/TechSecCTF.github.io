@@ -36,11 +36,11 @@ html, body {
 #about-button { background-color: #764B8E; }
 #about-button:hover { background-color: #582A72; }
 
-#github-button { background-color: #4F628E; }
-#github-button:hover { background-color: #2E4272; }
+#meeting-button { background-color: #4F628E; }
+#meeting-button:hover { background-color: #2E4272; }
 
-#recruit-button { background-color: #468C77; }
-#recruit-button:hover { background-color: #257059; }
+#github-button { background-color: #468C77; }
+#github-button:hover { background-color: #257059; }
 
 #content {
     position: relative;

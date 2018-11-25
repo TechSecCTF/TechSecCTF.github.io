@@ -1,68 +1,88 @@
 <!DOCTYPE html>
 <head>
-    <title>TechSec | About</title>
-    <meta charset="utf-8"/>
-    <meta name="description" content="TechSec | About"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href="style.css" type="text/css" rel="stylesheet"/>
-    <style> #about-button { text-decoration: underline; } </style>
-    <script type="text/javascript" src="script.js"></script>
+  <title>TechSec | About</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="TechSec | About" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="style.css" type="text/css" rel="stylesheet" />
+  <style>
+    #about-button {
+      text-decoration: underline;
+    }
+  </style>
+  <script type="text/javascript" src="script.js"></script>
 </head>
 <body onresize="adjustbuttons();">
-    <nav id="sidebar">
-        <div>
-            <img id="lock-logo" src="lock_logo.png" alt="techsec lock logo"/>
-        </div>
+  <nav id="sidebar">
+    <div>
+      <img id="lock-logo" src="lock_logo.png" alt="techsec lock logo" />
+    </div>
 
-        <a href="index.html">
-            <div id="home-button" class="nav-button"
-                 onmouseover="setWidth('home-button','100%');"
-                 onmouseout="setWidth('home-button','95%');">
-                Home
-            </div>
-        </a>
+    <a href="index.html">
+      <div
+        id="home-button"
+        class="nav-button"
+        onmouseover="setWidth('home-button','100%');"
+        onmouseout="setWidth('home-button','95%');"
+      >
+        Home
+      </div>
+    </a>
 
-        <a href="about.html">
-            <div id="about-button" class="nav-button"
-                 onmouseover="setWidth('about-button','100%');"
-                 onmouseout="setWidth('about-button','95%');">
-                About
-            </div>
-        </a>
+    <a href="about.html">
+      <div
+        id="about-button"
+        class="nav-button"
+        onmouseover="setWidth('about-button','100%');"
+        onmouseout="setWidth('about-button','95%');"
+      >
+        About
+      </div>
+    </a>
 
-        <a href="https://github.com/TechSecCTF/">
-            <div id="github-button" class="nav-button"
-                 onmouseover="setWidth('github-button','100%');"
-                 onmouseout="setWidth('github-button','95%');">
-                Github
-            </div>
-        </a>
+    <a
+      href="https://github.com/TechSecCTF/meeting_notes/tree/master/Fall2018/09-27-18_cryptography"
+      target="_blank"
+    >
+      <div
+        id="meeting-button"
+        class="nav-button"
+        onmouseover="setWidth('meeting-button','100%');"
+        onmouseout="setWidth('meeting-button','95%');"
+      >
+        Fall 2018 Workshops
+      </div>
+    </a>
 
-        <a href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeFLE08RSIrFvqyQa4C5YduDdzhQp-k-SFXUCr94hZmywkHUQ/viewform?usp=sf_link">
-            <div id="recruit-button" class="nav-button"
-                 onmouseover="setWidth('recruit-button','100%');"
-                 onmouseout="setWidth('recruit-button','95%');">
-                Join Us
-            </div>
-        </a>
-    </nav>
+    <a href="https://github.com/TechSecCTF/" target="_blank">
+      <div
+        id="github-button"
+        class="nav-button"
+        onmouseover="setWidth('github-button','100%');"
+        onmouseout="setWidth('github-button','95%');"
+      >
+        Github
+      </div>
+    </a>
+  </nav>
 
-    <section id="content">
+  <section id="content">
+    <img id="techsec-logo" src="techsec_logo.png" alt="techsec name logo" />
 
-        <img id="techsec-logo" src="techsec_logo.png" alt="techsec name logo"/>
-
-        <section>
-            <article class="post">
-                <h2>About Us</h2>
-                <p> TechSec is MIT's newest (and only) security club. During the
-                school year, we hold weekly meetings in 32-124 on Mondays at 6:30 PM.
-                We also participate in several
-                <a href="https://ctftime.org/ctf-wtf/">CTFs</a> throughout the year.
-                If you're an MIT affliate, you can join our mailing list, techsec@mit.edu.
-                You can also join our slack at techsec-mit.slack.com, which we mostly
-                use for coordination during CTFs.</p>
-            </article>
-        </section>
-
+    <section>
+      <article class="post">
+        <h2>About Us</h2>
+        <p>
+          TechSec is MIT's premier security club. During the school year, we
+          hold meetings approximately every week. During the fall semester we
+          focus mostly on teaching security fundamentals. During the spring
+          semester we focus mostly on competing in
+          <a href="https://ctftime.org/ctf-wtf/" target="_blank">CTFs</a>. If
+          you're an MIT affliate, you can join our mailing list,
+          techsec@mit.edu. You can also join our slack at techsec-mit.slack.com,
+          which we mostly use for coordination during CTFs.
+        </p>
+      </article>
     </section>
+  </section>
 </body>
