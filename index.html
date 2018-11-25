@@ -1,98 +1,111 @@
 <!DOCTYPE html>
 <head>
-    <title>TechSec | Home</title>
-    <meta charset="utf-8"/>
-    <meta name="description" content="TechSec Website"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href="style.css" type="text/css" rel="stylesheet"/>
-    <style> #home-button { text-decoration: underline; } </style>
-    <script type="text/javascript" src="script.js"></script>
+  <title>TechSec | Home</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="TechSec Website" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="style.css" type="text/css" rel="stylesheet" />
+  <style>
+    #home-button {
+      text-decoration: underline;
+    }
+  </style>
+  <script type="text/javascript" src="script.js"></script>
 </head>
 <body onresize="adjustbuttons();">
-    <nav id="sidebar">
-        <div>
-            <img id="lock-logo" src="lock_logo.png" alt="techsec lock logo"/>
-        </div>
+  <nav id="sidebar">
+    <div>
+      <img id="lock-logo" src="lock_logo.png" alt="techsec lock logo" />
+    </div>
 
-        <a href="index.html">
-            <div id="home-button" class="nav-button"
-                 onmouseover="setWidth('home-button','100%');"
-                 onmouseout="setWidth('home-button','95%');">
-                Home
-            </div>
-        </a>
+    <a href="index.html">
+      <div
+        id="home-button"
+        class="nav-button"
+        onmouseover="setWidth('home-button','100%');"
+        onmouseout="setWidth('home-button','95%');"
+      >
+        Home
+      </div>
+    </a>
 
-        <a href="about.html">
-            <div id="about-button" class="nav-button"
-                 onmouseover="setWidth('about-button','100%');"
-                 onmouseout="setWidth('about-button','95%');">
-                About
-            </div>
-        </a>
+    <a href="about.html">
+      <div
+        id="about-button"
+        class="nav-button"
+        onmouseover="setWidth('about-button','100%');"
+        onmouseout="setWidth('about-button','95%');"
+      >
+        About
+      </div>
+    </a>
 
-        <a href="https://github.com/TechSecCTF/">
-            <div id="github-button" class="nav-button"
-                 onmouseover="setWidth('github-button','100%');"
-                 onmouseout="setWidth('github-button','95%');">
-                Github
-            </div>
-        </a>
-    </nav>
+    <a
+      href="https://github.com/TechSecCTF/meeting_notes/tree/master/Fall2018/09-27-18_cryptography"
+      target="_blank"
+    >
+      <div
+        id="meeting-button"
+        class="nav-button"
+        onmouseover="setWidth('meeting-button','100%');"
+        onmouseout="setWidth('meeting-button','95%');"
+      >
+        Fall 2018 Workshops
+      </div>
+    </a>
 
-    <section id="content">
+    <a href="https://github.com/TechSecCTF/" target="_blank">
+      <div
+        id="github-button"
+        class="nav-button"
+        onmouseover="setWidth('github-button','100%');"
+        onmouseout="setWidth('github-button','95%');"
+      >
+        Github
+      </div>
+    </a>
+  </nav>
 
-        <img id="techsec-logo" src="techsec_logo.png" alt="techsec name logo"/>
+  <section id="content">
+    <img id="techsec-logo" src="techsec_logo.png" alt="techsec name logo" />
 
-        <img id="team-photo" src="techsec_team.jpg" alt="techsec team photo"/>
+    <img id="team-photo" src="techsec_team.jpg" alt="techsec team photo" />
 
-        <nav id="quick-links">
-            <a href="https://github.com/TechSecCTF/meeting_notes/tree/master/02-27-17_bkp_recap">
-                <div class="link column-1">BKP</div>
-            </a>
+    <section>
+      <article class="post" id="top-post">
+        <h2>Welcome!</h2>
+        <p>
+          Welcome to the TechSec website. Here on the home page you will find
+          announcements. Over on the sidebar to the left you will find links to
+          workshop materials and other club resources. Contact twang6@mit.edu to
+          suggest additions or changes.
+        </p>
+      </article>
 
-            <a href="https://github.com/TechSecCTF/meeting_notes/tree/master/03-06-17_binary_introduction">
-                <div class="link column-2">Binaries I</div>
-            </a>
+      <article class="post">
+        <h2>2018 CSAW Finals</h2>
+        <p>
+          A team of four TechSec members (Brian Chen, Lily Chung, Philip
+          Murzynowski, Cattalyya Nuengsigkapia) participated in the
+          <a href="https://ctftime.org/event/696">2018 CSAW Finals</a> and
+          placed 4th. Congratulations to our four finalists and thank you
+          everyone who helped in qualifying!
+        </p>
+      </article>
 
-            <a href="https://github.com/TechSecCTF/meeting_notes/tree/master/03-13-17_binaries_part2">
-                <div class="link column-3">Binaries II</div>
-            </a>
-        </nav>
-
-        <section>
-            <article class="post" id="top-post">
-                <h2>New Website!</h2>
-                <p> This is the skeleton for our club website, where
-                we'll make announcements, link to workshop materials,
-                and generally organize club information. Contact
-                devneal@mit.edu or cattalyy@mit.edu to suggest
-                additions or changes.  </p>
-            </article>
-
-            <article class="post">
-                <h2>DEF CON</h2>
-                <p>In a joint team with LabRATs (MIT Lincoln Labs) and RPISEC,
-                TechSec recently qualified to DEF CON! The Finals will take place
-                July 27th - 30th at Caesar's Palace in Las Vegas. We're currently
-                soliciting funding to pay for travel and hotel costs.</p>
-
-                <p>Also, the source code and binaries for the challenges to the
-                qualifier round were
-                <a href="https://github.com/legitbs/quals-2017">just released</a>.
-                You can find writeups for most of the challenges
-                <a href="https://ctftime.org/event/459/tasks/">on ctftime</a>.
-                </p>
-            </article>
-
-            <article class="post">
-              <h2>TechSec Calendar</h2>
-              <p>We recently put together a
- <a href="https://calendar.google.com/calendar/embed?src=mq31qk6klqmn03u02m1t5tuuf4%40group.calendar.google.com&ctz=America%2FNew_York">Google Calendar</a>
-              for TechSec. It lists TechSec meetings, CTFs, and other
-              security-related events. </p>
-            </article>
-
-        </section>
-
+      <article class="post">
+        <h2>TechSec Calendar</h2>
+        <p>
+          We recently put together a
+          <a
+            href="https://calendar.google.com/calendar/embed?src=mq31qk6klqmn03u02m1t5tuuf4%40group.calendar.google.com&ctz=America%2FNew_York"
+            target="_blank"
+            >Google Calendar</a
+          >
+          for TechSec. It lists TechSec meetings, CTFs, and other
+          security-related events.
+        </p>
+      </article>
     </section>
+  </section>
 </body>
