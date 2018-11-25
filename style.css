@@ -1,0 +1,149 @@
+@import url("reset.css");
+
+a {
+    text-decoration: none;
+}
+
+html, body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-color: #eeeeee;
+}
+
+#sidebar {
+    position: fixed;
+    width: 200px;
+    z-index: 1;
+}
+
+#lock-logo {
+    display: block;
+    margin: 16px auto;
+    width: 100px;
+}
+
+#sidebar div {
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    margin-bottom: 5px;
+    width: 95%;
+}
+
+#home-button { background-color: #D46A6A; }
+#home-button:hover { background-color: #AA3939; }
+
+#about-button { background-color: #764B8E; }
+#about-button:hover { background-color: #582A72; }
+
+#github-button { background-color: #4F628E; }
+#github-button:hover { background-color: #2E4272; }
+
+#recruit-button { background-color: #468C77; }
+#recruit-button:hover { background-color: #257059; }
+
+#content {
+    position: relative;
+    margin-left: 220px;
+    margin-right: 40px;
+}
+
+#techsec-logo {
+    height: 70px;
+    display: block;
+    margin: 16px auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#team-photo {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+#quick-links {
+    height: 80px;
+    margin-bottom: 16px;
+}
+
+.link {
+    float: left;
+    position: relative;
+    width: 32.66%;
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    color: white;
+    font-size: 1.25em;
+    background-color: #483D4C;
+}
+
+.link:hover {
+    background-color: #2B2B2B;
+}
+
+.column-1 { margin-right: 0.5%; }
+
+.column-2 {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.column-3 { margin-left: 0.5%; }
+
+.post {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+}
+
+.post h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        position: static;
+        width: 100%;
+    }
+
+    #sidebar div {
+        width: 100%;
+    }
+
+    #techsec-logo {
+        width: 100%;
+        height: auto;
+        margin-bottom: 16px;
+    }
+
+    #content {
+        position: static;
+        margin: 0;
+    }
+
+    #quick-links {
+        position: static;
+        height: auto;
+    }
+
+    .link {
+        float: none;
+        position: static;
+        width: 100%;
+    }
+
+    .column-1, .column-2, .column-3 {
+        margin: 2px auto;
+    }
+
+    #content section {
+        position: static;
+    }
+}

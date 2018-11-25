@@ -1,284 +1,106 @@
 <!DOCTYPE html>
-<html>
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-
-    <title>TechSec</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-
-
-    <script   src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="   crossorigin="anonymous"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
-
+    <title>TechSec | Home</title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="TechSec Website"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+    <style> #home-button { text-decoration: underline; } </style>
+    <script type="text/javascript" src="script.js"></script>
 </head>
-
-<body>
-    <div class="jumbotron" id="banner"></div>
-    <div class="row" style="background-color: #930000; font-size: 40px; height: auto; color:#fff; text-align: center">MIT TechSec</div>
-    <div class="row">
-        <div class="col-md-2">
-            <img src="img/black_and_gray.png" style="width:100%; 
-  display: block;"></img>
-            <div id="sidebar">
-            <ul class="sidebar-nav nav">
-                <li> <a href="#home"><span class="fa fa-home solo">Home</span></a></li>
-                <li> <a href="#about"><span class="fa fa-home solo">About</span></a></li>
-                <li> <a href="#workshop"><span class="fa fa-home solo">Workshop</span></a></li>
-                <li> <a href="#contact"><span class="fa fa-home solo">Contact</span></a></li>
-            </ul>
-            </div>
+<body onresize="adjustbuttons();">
+    <nav id="sidebar">
+        <div>
+            <img id="lock-logo" src="lock_logo.png" alt="techsec lock logo"/>
         </div>
 
-        <div class="col-md-10" id="content">
-            <div id="posts">
-               
-                <div class="separator" id="home">Announcement</div>
-                <section class="post">
-                    <header>
-                        <h1>New Website</h1>
-                    </header>
-                    <article>
-                        <p>This is the skeleton for our club webiste, where we
-                        can make announcements, link to workshop materials, and
-                        generally organize club information. Contact
-                        devneal@mit.edu or cattalyy@mit.edu to suggest
-                        additions or changes.  Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.  In semper, tortor
-                        convallis bibendum tincidunt, velit nulla lacinia ante,
-                        eget faucibus sapien sapien id augue.  Suspendisse nec
-                        libero et nibh vehicula eleifend eu sit amet tortor.
-                        Cras sagittis diam pretium mauris hendrerit, id
-                        porttitor mauris euismod. Mauris ex felis, cursus id
-                        fermentum ac, venenatis vitae nulla. Fusce a neque a
-                        magna congue cursus.  Nulla et turpis tempor, pulvinar
-                        justo eu, consequat justo.  Cras lobortis at urna vitae
-                        laoreet. Etiam sed mauris blandit, finibus lectus sed,
-                        faucibus arcu.</p>
-                    <article>
-                </section>
-
-                <div class="separator">Previous Posts</div>
-                <section class="post">
-                    <header>
-                        <h1>DEF CON</h1>
-                    </header>
-                    <article>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit.  In semper, tortor convallis bibendum tincidunt,
-                        velit nulla lacinia ante, eget faucibus sapien sapien
-                        id augue.  Suspendisse nec libero et nibh vehicula
-                        eleifend eu sit amet tortor. Cras sagittis diam pretium
-                        mauris hendrerit, id porttitor mauris euismod.  Mauris
-                        ex felis, cursus id fermentum ac, venenatis vitae
-                        nulla. Fusce a neque a magna congue cursus. Nulla et
-                        turpis tempor, pulvinar justo eu, consequat justo. Cras
-                        lobortis at urna vitae laoreet. Etiam sed mauris
-                        blandit, finibus lectus sed, faucibus arcu.  Nullam
-                        malesuada auctor sapien, vitae elementum eros faucibus
-                        at. Sed hendrerit diam eget nibh mollis fringilla sit
-                        amet tristique massa. Vestibulum convallis lobortis
-                        lorem a hendrerit.  Sed et ante ex. Nullam id elementum
-                        turpis. Morbi nec finibus dolor.  </p>
-
-                        <p>Nulla facilisi. Etiam molestie placerat libero
-                        elementum dignissim. Quisque magna nisi, varius vitae
-                        elementum ac, posuere sed felis. Curabitur ultricies
-                        enim nec dictum scelerisque. Integer quis commodo
-                        lacus. Etiam vitae nisl eget augue luctus pharetra nec
-                        sit amet risus. Cras lacinia libero sit amet metus
-                        dignissim consectetur.  </p>
-
-                        <p>Nulla facilisi. Etiam molestie placerat libero
-                        elementum dignissim. Quisque magna nisi, varius vitae
-                        elementum ac, posuere sed felis. Curabitur ultricies
-                        enim nec dictum scelerisque. Integer quis commodo
-                        lacus. Etiam vitae nisl eget augue luctus pharetra nec
-                        sit amet risus. Cras lacinia libero sit amet metus
-                        dignissim consectetur.  </p>
-
-                    <article>
-                </section>
-
-                <section class="post">
-                    <header>
-                        <h1>How to Binary Ninja</h1>
-                    </header>
-                    <article>
-                        <p>Lol if only we knew. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit.  In semper, tortor convallis bibendum tincidunt,
-                        velit nulla lacinia ante, eget faucibus sapien sapien
-                        id augue.  Suspendisse nec libero et nibh vehicula
-                        eleifend eu sit amet tortor. Cras sagittis diam pretium
-                        mauris hendrerit, id porttitor mauris euismod.  Mauris
-                        ex felis, cursus id fermentum ac, venenatis vitae
-                        nulla. Fusce a neque a magna congue cursus. Nulla et
-                        turpis tempor, pulvinar justo eu, consequat justo. Cras
-                        lobortis at urna vitae laoreet. Etiam sed mauris
-                        blandit, finibus lectus sed, faucibus arcu.  Nullam
-                        malesuada auctor sapien, vitae elementum eros faucibus
-                        at. Sed hendrerit diam eget nibh mollis fringilla sit
-                        amet tristique massa. Vestibulum convallis lobortis
-                        lorem a hendrerit.  Sed et ante ex. Nullam id elementum
-                        turpis. Morbi nec finibus dolor.  </p>
-
-                        <p>Nulla facilisi. Etiam molestie placerat libero
-                        elementum dignissim. Quisque magna nisi, varius vitae
-                        elementum ac, posuere sed felis. Curabitur ultricies
-                        enim nec dictum scelerisque. Integer quis commodo
-                        lacus. Etiam vitae nisl eget augue luctus pharetra nec
-                        sit amet risus. Cras lacinia libero sit amet metus
-                        dignissim consectetur.  </p>
-
-                        <p>Nulla facilisi. Etiam molestie placerat libero
-                        elementum dignissim. Quisque magna nisi, varius vitae
-                        elementum ac, posuere sed felis. Curabitur ultricies
-                        enim nec dictum scelerisque. Integer quis commodo
-                        lacus. Etiam vitae nisl eget augue luctus pharetra nec
-                        sit amet risus. Cras lacinia libero sit amet metus
-                        dignissim consectetur.  </p>
-
-                    <article>
-                </section>
-
-
-                 <section-header id="about">About</section-header>
-                 <section class="post">
-                    <header>
-                        <h1>Beginnings</h1>
-                    </header>
-                    <article>
-                        <p>Lol if only we knew. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit.  In semper, tortor convallis bibendum tincidunt,
-                        velit nulla lacinia ante, eget faucibus sapien sapien
-                        id augue.  Suspendisse nec libero et nibh vehicula
-                        eleifend eu sit amet tortor. Cras sagittis diam pretium
-                        mauris hendrerit, id porttitor mauris euismod.  Mauris
-                        ex felis, cursus id fermentum ac, venenatis vitae
-                        nulla. Fusce a neque a magna congue cursus. Nulla et
-                        turpis tempor, pulvinar justo eu, consequat justo. Cras
-                        lobortis at urna vitae laoreet. Etiam sed mauris
-                        blandit, finibus lectus sed, faucibus arcu.  Nullam
-                        malesuada auctor sapien, vitae elementum eros faucibus
-                        at. Sed hendrerit diam eget nibh mollis fringilla sit
-                        amet tristique massa. Vestibulum convallis lobortis
-                        lorem a hendrerit.  Sed et ante ex. Nullam id elementum
-                        turpis. Morbi nec finibus dolor.  </p>
-
-                        <p>Nulla facilisi. Etiam molestie placerat libero
-                        elementum dignissim. Quisque magna nisi, varius vitae
-                        elementum ac, posuere sed felis. Curabitur ultricies
-                        enim nec dictum scelerisque. Integer quis commodo
-                        lacus. Etiam vitae nisl eget augue luctus pharetra nec
-                        sit amet risus. Cras lacinia libero sit amet metus
-                        dignissim consectetur.  </p>
-
-                        <p>Nulla facilisi. Etiam molestie placerat libero
-                        elementum dignissim. Quisque magna nisi, varius vitae
-                        elementum ac, posuere sed felis. Curabitur ultricies
-                        enim nec dictum scelerisque. Integer quis commodo
-                        lacus. Etiam vitae nisl eget augue luctus pharetra nec
-                        sit amet risus. Cras lacinia libero sit amet metus
-                        dignissim consectetur.  </p>
-
-                    <article>
-                </section>
-
-                <section-header id="workshop">Workshop</section-header>
-                 <section class="post">
-                    <header>
-                        <h1>May 1, 2017</h1>
-                    </header>
-                    <article>
-                        
-
-                        <p>Nulla facilisi. Etiam molestie placerat libero
-                        elementum dignissim. Quisque magna nisi, varius vitae
-                        elementum ac, posuere sed felis. Curabitur ultricies
-                        enim nec dictum scelerisque. Integer quis commodo
-                        lacus. Etiam vitae nisl eget augue luctus pharetra nec
-                        sit amet risus. Cras lacinia libero sit amet metus
-                        dignissim consectetur.  </p>
-
-                        <p>Nulla facilisi. Etiam molestie placerat libero
-                        elementum dignissim. Quisque magna nisi, varius vitae
-                        elementum ac, posuere sed felis. Curabitur ultricies
-                        enim nec dictum scelerisque. Integer quis commodo
-                        lacus. Etiam vitae nisl eget augue luctus pharetra nec
-                        sit amet risus. Cras lacinia libero sit amet metus
-                        dignissim consectetur.  </p>
-
-                    </article>
-                    <header>
-                    <h1>May 7, 2017</h1>
-                    </header>
-                    <article>
-                        
-
-                        <p>Nulla facilisi. Etiam molestie placerat libero
-                        elementum dignissim. Quisque magna nisi, varius vitae
-                        elementum ac, posuere sed felis. Curabitur ultricies
-                        enim nec dictum scelerisque. Integer quis commodo
-                        lacus. Etiam vitae nisl eget augue luctus pharetra nec
-                        sit amet risus. Cras lacinia libero sit amet metus
-                        dignissim consectetur.  </p>
-
-                        <p>Nulla facilisi. Etiam molestie placerat libero
-                        elementum dignissim. Quisque magna nisi, varius vitae
-                        elementum ac, posuere sed felis. Curabitur ultricies
-                        enim nec dictum scelerisque. Integer quis commodo
-                        lacus. Etiam vitae nisl eget augue luctus pharetra nec
-                        sit amet risus. Cras lacinia libero sit amet metus
-                        dignissim consectetur.  </p>
-
-                    </article>
-                    <header>
-                    <h1>May 14, 2017</h1>
-                    </header>
-                    <article>
-                        
-
-                        <p>Nulla facilisi. Etiam molestie placerat libero
-                        elementum dignissim. Quisque magna nisi, varius vitae
-                        elementum ac, posuere sed felis. Curabitur ultricies
-                        enim nec dictum scelerisque. Integer quis commodo
-                        lacus. Etiam vitae nisl eget augue luctus pharetra nec
-                        sit amet risus. Cras lacinia libero sit amet metus
-                        dignissim consectetur.  </p>
-
-                        <p>Nulla facilisi. Etiam molestie placerat libero
-                        elementum dignissim. Quisque magna nisi, varius vitae
-                        elementum ac, posuere sed felis. Curabitur ultricies
-                        enim nec dictum scelerisque. Integer quis commodo
-                        lacus. Etiam vitae nisl eget augue luctus pharetra nec
-                        sit amet risus. Cras lacinia libero sit amet metus
-                        dignissim consectetur.  </p>
-
-                    </article>
-                </section>
-
+        <a href="index.html">
+            <div id="home-button" class="nav-button"
+                 onmouseover="setWidth('home-button','100%');"
+                 onmouseout="setWidth('home-button','95%');">
+                Home
             </div>
-        </content>
+        </a>
 
-        <footer>
-            <p><span id="contact">Contact: techsec-exec@mit.edu</span></p>
-        </footer>
+        <a href="about.html">
+            <div id="about-button" class="nav-button"
+                 onmouseover="setWidth('about-button','100%');"
+                 onmouseout="setWidth('about-button','95%');">
+                About
+            </div>
+        </a>
 
-    </div>
+        <a href="https://github.com/TechSecCTF/">
+            <div id="github-button" class="nav-button"
+                 onmouseover="setWidth('github-button','100%');"
+                 onmouseout="setWidth('github-button','95%');">
+                Github
+            </div>
+        </a>
+
+        <a href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeFLE08RSIrFvqyQa4C5YduDdzhQp-k-SFXUCr94hZmywkHUQ/viewform?usp=sf_link">
+            <div id="recruit-button" class="nav-button"
+                 onmouseover="setWidth('recruit-button','100%');"
+                 onmouseout="setWidth('recruit-button','95%');">
+                Join Us
+            </div>
+        </a>
+    </nav>
+
+    <section id="content">
+
+        <img id="techsec-logo" src="techsec_logo.png" alt="techsec name logo"/>
+
+        <img id="team-photo" src="techsec_team.jpg" alt="techsec team photo"/>
+
+        <nav id="quick-links">
+            <a href="https://github.com/TechSecCTF/meeting_notes/tree/master/02-27-17_bkp_recap">
+                <div class="link column-1">BKP</div>
+            </a>
+
+            <a href="https://github.com/TechSecCTF/meeting_notes/tree/master/03-06-17_binary_introduction">
+                <div class="link column-2">Binaries I</div>
+            </a>
+
+            <a href="https://github.com/TechSecCTF/meeting_notes/tree/master/03-13-17_binaries_part2">
+                <div class="link column-3">Binaries II</div>
+            </a>
+        </nav>
+
+        <section>
+            <article class="post" id="top-post">
+                <h2>New Website!</h2>
+                <p> This is the skeleton for our club website, where
+                we'll make announcements, link to workshop materials,
+                and generally organize club information. Contact
+                devneal@mit.edu or cattalyy@mit.edu to suggest
+                additions or changes.  </p>
+            </article>
+
+            <article class="post">
+                <h2>DEF CON</h2>
+                <p>In a joint team with LabRATs (MIT Lincoln Labs) and RPISEC,
+                TechSec recently qualified to DEF CON! The Finals will take place
+                July 27th - 30th at Caesar's Palace in Las Vegas. We're currently
+                soliciting funding to pay for travel and hotel costs.</p>
+
+                <p>Also, the source code and binaries for the challenges to the
+                qualifier round were
+                <a href="https://github.com/legitbs/quals-2017">just released</a>.
+                You can find writeups for most of the challenges
+                <a href="https://ctftime.org/event/459/tasks/">on ctftime</a>.
+                </p>
+            </article>
+
+            <article class="post">
+              <h2>TechSec Calendar</h2>
+              <p>We recently put together a
+ <a href="https://calendar.google.com/calendar/embed?src=60as1dh4pclfl3csbcs99sal4c%40group.calendar.google.com&ctz=America/New_York">Google Calendar</a>
+              for TechSec. It lists TechSec meetings, CTFs, and other
+              security-related events. </p>
+            </article>
+
+        </section>
+
+    </section>
 </body>
-
-
-</html>
